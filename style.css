@@ -1,0 +1,227 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero {
+    display: flex;
+    height:600px; /* Adjust height as needed */
+    width: 600px;
+  }
+  
+  .left-col {
+    position: relative;
+    flex-basis:50%;
+    background:maroon;
+    width: 60%;
+    height: 100%;
+  }
+  
+  .right-col {
+    flex-basis:50%;
+    width: 50%;
+    position: relative;
+  }
+  .fa-solid {
+    margin:40px;
+   
+  }
+  .logo {
+    margin-left:120px;
+    margin-top:-15px;
+
+  }
+  .navbar {
+    list-style-type: none;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    display: flex;
+    padding: 0p;
+
+  }
+  
+  .navbar li {
+   margin-left: 30px;
+    text-decoration: none;
+    color: black; /* Adjust color as needed */
+    display:flex;
+  }
+  .fa-solid {
+    position: absolute;
+    right: 100px;
+   margin-right: 200px;
+  }
+  
+  .white-bar{
+    position: absolute;
+    height:10px;
+    width: 120px;
+    background: white;
+    top: 180px; 
+    right:0;
+  }
+
+  .red-bar {
+    position: absolute;
+    height:10px;
+    width: 120px;
+    background: maroon;
+    top: 180px; 
+    left:0;
+
+  }
+  .red-bar span {
+    position: absolute;
+    height:10px;
+    width: 50px;
+    background: maroon;
+    top: 0px; 
+    left:120px;
+
+  }
+  .quote-text {
+    width: 50px;
+    top:200px;
+    right: 170px;
+    position:absolute;
+    color:white;
+    font-size:22px;
+    margin-top:10px;
+  }
+  
+  .icon img {
+    width: 300px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .icon {
+    position: absolute;
+    bottom: 20px; /* Adjust the bottom margin as needed */
+    left:400px; /* Adjust the right margin as needed */
+  }
+  .small-img {
+    bottom: 10px;
+    left: 290px;
+    position: absolute;
+    width: 200px;
+  }
+
+  .small-img img {
+    width:300px;
+    height:auto;
+  }
+  .small-img::after {
+    content : '\276f';
+    height:40px;
+    width:40px;
+    position: absolute;
+    bottom:120px;
+    left:-100px;
+    color:#fff;
+    font-size:28px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    text-align:center;
+    transform: rotate(-90deg);
+
+
+  }
+  .small-img::before {
+    content : '\276f';
+    height:40px;
+    width:40px;
+    position: absolute;
+    bottom:30px;
+    left:-100px;
+    color:#fff;
+    font-size:28px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    text-align:center;
+    transform: rotate(90deg);
+
+
+  }
+  .line-1 {
+    width:2px;
+    height: 80px;
+    background: black;
+    position: absolute;
+    right:-100px;
+    bottom:34px;    
+  }
+  .line-1::after{
+    content: '02/04';
+    position:absolute;
+    top:-30px;
+    left:-17px;
+    font-size:11px;
+    letter-spacing: 1px;
+    transform: rotate(-90deg);
+
+  }
+   h1{
+    position: relative;
+    top:41%;
+    left:70%;
+    font-size:40px;
+    font-weight: 300;
+    color:#efefef;
+    transform: rotate(-90deg);
+  }
+ 
+
+  .text-box {
+    width: 460px; 
+    position:absolute;
+    top: 40%;
+    right:290px;
+   
+  }
+  
+  .text-box h2 {
+    
+    height: 50%;
+    font-weight:bolder;
+    line-height: 25px;
+    text-align:center;
+    font-size: 30px;
+    width:60%;
+    
+   
+  }
+  .text-box p {
+    width: 60%;
+    height: 50%;
+    font-weight: 100;
+    line-height: 1.2;
+    text-align:center;
+    font-size: 14px;
+    text-indent: 20px;
+    
+  }
+  .icon-box {
+    width: 22px;
+    position:absolute;
+    right: 25px;
+    bottom: 10px;
+    text-align: center;
+  }
+  .social-icons {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    
+  }
+  
+
+  
+
+  
